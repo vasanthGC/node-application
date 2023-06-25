@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: gocodify/internal:1.1
+  IMAGE_NAME: gocodify/internal/node
   REGISTRY: docker.io
 
 jobs:
