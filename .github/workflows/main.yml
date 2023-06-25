@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  IMAGE_NAME: gocodify/internal:node2
-  REGISTRY: docker.io
+  IMAGE_NAME: external:node2
+  REGISTRY: gocodify
 
 jobs:
   build-and-push:
