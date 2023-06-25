@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  IMAGE_NAME: your-image-name
-  REGISTRY: your-docker-registry
+  IMAGE_NAME: node-application
+  REGISTRY: docker.io
 
 jobs:
   build-and-push:
