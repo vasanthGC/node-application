@@ -7,7 +7,7 @@ on:
 
 env:
   IMAGE_NAME: node-application
-  REGISTRY: docker.io
+  REGISTRY: docker.io/gocodify
 
 jobs:
   build-and-push:
