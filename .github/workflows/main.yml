@@ -7,7 +7,7 @@ on:
 
 env:
 #   IMAGE_NAME: gocodify/internal/node
-  REGISTRY: gocodify/external
+  REGISTRY: docker.io/gocodify/external
 
 jobs:
   build-and-push:
