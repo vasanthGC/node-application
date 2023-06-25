@@ -5,9 +5,9 @@ on:
     branches:
       - main
 
-env:
-  IMAGE_NAME: external:node2
-  REGISTRY: gocodify
+# env:
+#   IMAGE_NAME: external:node2
+#   REGISTRY: gocodify
 
 jobs:
   build-and-push:
