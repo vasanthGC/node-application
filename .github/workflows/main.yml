@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  IMAGE_NAME: node-application
-  REGISTRY: docker.io/gocodify/internal
+  IMAGE_NAME: gocodify/internal:1.1
+  REGISTRY: docker.io
 
 jobs:
   build-and-push:
